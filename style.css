@@ -40,3 +40,63 @@
 .nav-links li a:hover{
     color: gold;
 }
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: url('restoint.jpg') no-repeat center center/cover; 
+  /* Make sure restoint.jpg is in the same folder as your HTML file,
+     or update the path accordingly */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4); /* overlay so text stays visible */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #f4c430; /* golden accent */
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.hero-btn {
+  padding: 12px 28px;
+  background: #f4c430;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
