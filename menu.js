@@ -39,6 +39,17 @@ const menuItems = {
   image: 'mk.jpg',
   details: 'Delicate cottage cheese and potato dumplings served in a rich, creamy cashew-tomato gravy – a royal Mughlai treat.<br><br><b>Ingredients:</b> Paneer, potato, cashew, onion, tomato, cream, cardamom.<br><br><b>Price:</b> ₹240'
 },
+'Palak-Paneer': {
+  title: 'Palak Paneer',
+  image: 'pp.jpg',
+  details: 'Paneer cubes gently simmered in a velvety spinach gravy, mildly spiced and wholesome.<br><br><b>Ingredients:</b> Spinach, paneer, onion, garlic, green chili, cream, garam masala.<br><br><b>Price:</b> ₹240'
+},
+'Bhindi-Masala': {
+  title: 'Bhindi Masala',
+  image: 'bm.jpg',
+  details: 'A simple yet flavorful stir-fry of okra cooked with onion, tomato, and Indian spices – light and homely.<br><br><b>Ingredients:</b> Okra, onion, tomato, ginger, garlic, cumin, coriander.<br><br><b>Price:</b> ₹180'
+},
+
   'basmati-pulao': {
     title: 'Basmati Pulao',
     image: 'pulao.jpg',
