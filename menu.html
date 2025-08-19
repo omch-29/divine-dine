@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Divine Dining</title>
+  <title>Divine Dining - Menu</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
   <link rel="icon" href="logo.jpg" type="image/jpg">
 </head>
 <body>
@@ -12,19 +13,139 @@
   <nav class="navbar">
     <div class="logo">
       <img src="logo.jpg" alt="Divine Dining Logo">
-      <!--<span> Divine Dining</span>-->
     </div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="menu.html">Menu</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
       <li><a href="bychoice.html">By Choice</a></li>
       <li><a href="dinein.html">Dine-In</a></li>
       <li><a href="homedelivery.html">Home Delivery</a></li>
-      <li><a href="events.html"> book for an Event</a></li>
+      <li><a href="events.html">Book for an Event</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="reviews.html">Reviews</a></li>
     </ul>
   </nav>
-  <h1>Tap on the specific item name to view details</h1>
+
+  <main class="menu-page">
+    <h1>Our Divine Menu</h1>
+    <p class="menu-note">Tap on an item name to view more details</p>
+
+    <!-- Soups & Salads -->
+    <section class="menu-category">
+      <h2>Soups & Salads</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('caesar-salad')">
+          <div class="item-info">
+            <h3>Caesar Salad</h3>
+            <p class="description-short">Crisp romaine, croutons, parmesan, and Caesar dressing.</p>
+            <span class="price">₹ 220</span>
+          </div>
+        </div>
+        <div class="menu-item" onclick="openModal('sprout-salad')">
+          <div class="item-info">
+            <h3>Sprout Salad</h3>
+            <p class="description-short">A protein-packed healthy salad made from boiled green gram sprouts.</p>
+            <span class="price">₹ 150</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Courses -->
+    <section class="menu-category">
+      <h2>Main Courses</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('divine-pasta')">
+          <div class="item-info">
+            <h3>Divine Pasta with Truffle</h3>
+            <p class="description-short">Handmade pasta with creamy truffle sauce.</p>
+            <span class="price">₹ 1750</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rice -->
+    <section class="menu-category">
+      <h2>Rice</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('basmati-pulao')">
+          <div class="item-info">
+            <h3>Basmati Pulao</h3>
+            <p class="description-short">A fragrant rice dish cooked with spices and vegetables.</p>
+            <span class="price">₹ 1100</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Snacks -->
+    <section class="menu-category">
+      <h2>Snacks</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('manchurian')">
+          <div class="item-info">
+            <h3>Manchurian</h3>
+            <p class="description-short">Crispy vegetable dumplings in a tangy, spicy sauce.</p>
+            <span class="price">₹ 850</span>
+          </div>
+        </div>
+        <div class="menu-item" onclick="openModal('noodles')">
+          <div class="item-info">
+            <h3>Hakka Noodles</h3>
+            <p class="description-short">Wok-tossed noodles with colorful vegetables and sauce.</p>
+            <span class="price">₹ 950</span>
+          </div>
+        </div>
+        <div class="menu-item" onclick="openModal('pizza')">
+          <div class="item-info">
+            <h3>Margherita Pizza</h3>
+            <p class="description-short">Classic pizza with mozzarella, basil, and tomato sauce.</p>
+            <span class="price">₹ 1200</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Desserts -->
+    <section class="menu-category">
+      <h2>Desserts</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('tiramisu')">
+          <div class="item-info">
+            <h3>Classic Tiramisu</h3>
+            <p class="description-short">Layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+            <span class="price">₹ 800</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beverages -->
+    <section class="menu-category">
+      <h2>Beverages</h2>
+      <div class="menu-grid">
+        <div class="menu-item" onclick="openModal('iced-tea')">
+          <div class="item-info">
+            <h3>Freshly Brewed Iced Tea</h3>
+            <p class="description-short">Refreshing iced tea with a hint of lemon.</p>
+            <span class="price">₹ 300</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="item-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="" alt="Menu Item">
+        <h2 id="modal-title"></h2>
+        <p id="modal-details"></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="menu.js"></script>
 </body>
 </html>
