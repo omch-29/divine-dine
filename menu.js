@@ -51,10 +51,10 @@ const menuItems = {
 },
 
   'basmati-pulao': {
-    title: 'Basmati Pulao',
-    image: 'pulao.jpg',
-    details: 'A fragrant and flavorful rice dish made with long-grain basmati rice, gently spiced with whole garam masala and cooked with a mix of fresh seasonal vegetables. A perfect accompaniment to any curry or stew.'
-  },
+  title: 'Basmati Rice',
+  image: 'bp.jpg',
+  details: 'A fragrant and flavorful rice dish cooked with long-grain basmati rice, whole spices, and mild seasonings.<br><br><b>Description:</b> Each grain of rice remains separate and fluffy, infused with the aroma of cumin, cloves, bay leaf, and cardamom. Often served as an accompaniment to curries, dals, or enjoyed simply with raita.<br><br><b>Ingredients:</b> Basmati rice, cumin seeds, bay leaf, cardamom, cloves, cinnamon, onions, peas (optional), ghee/oil, salt.<br><br><b>Price:</b> ₹280'
+},
   'manchurian': {
     title: ' Manchurian',
     image: 'manch.jpg',
