@@ -9,16 +9,36 @@ const menuItems = {
   image: 'ss.jpg',
   details: 'A protein-packed healthy salad made from boiled green gram sprouts,<br>tossed with onion, tomato, cucumber, coriander, and lemon juice.<br><br><b>Ingredients:</b> Sprouts, onion, tomato, cucumber, green chili, lemon juice, coriander, salt, chaat masala.<br><br><b>Price:</b> ₹120'
 },
-'kachumber-salad': {
-  title: 'Kachumber Salad',
+'cucumber-salad': {
+  title: 'cucumber Salad',
   image: 'ks.jpg',
   details: 'A refreshing chopped salad commonly served with Indian meals,<br>featuring finely diced cucumber, onion, and tomato with a squeeze of lemon.<br><br><b>Ingredients:</b> Cucumber, onion, tomato, green chili, coriander, lemon juice, black salt.<br><br><b>Price:</b> ₹120'
 },
-  'divine-pasta': {
-    title: 'Divine Pasta with Truffle',
-    image: 'pasta.jpg',
-    details: 'Our signature handmade fettuccine pasta served with a rich and creamy Parmesan sauce, generously infused with the earthy aroma and delicate flavor of black truffle shavings. An unforgettable culinary experience.'
-  },
+  'Butter-Paneer': {
+  title: 'Paneer Butter Masala',
+  image: 'pb.jpg',
+  details: 'A rich and creamy North Indian delicacy, featuring paneer cubes simmered in a luscious tomato-based gravy, finished with butter and cream.<br><br><b>Ingredients:</b> Paneer, tomato, onion, cashews, butter, cream, kasuri methi, garam masala.<br><br><b>Price:</b> ₹280'
+},
+'Dal-Tadka': {
+  title: 'Dal Tadka',
+  image: 'dt.jpg',
+  details: 'A comforting yellow lentil preparation, tempered with ghee, cumin, garlic, and red chili for a smoky, aromatic flavor.<br><br><b>Ingredients:</b> Toor dal, onion, tomato, garlic, cumin seeds, ghee, coriander.<br><br><b>Price:</b> ₹180'
+},
+'Sev-special': {
+  title: 'Sev Tamatar (Special)',
+  image: 'st.jpg',
+  details: 'A Kathiyawadi favorite, this tangy tomato-based curry is topped with crunchy sev just before serving, bringing a delightful contrast of textures.<br><br><b>Ingredients:</b> Tomato, onion, sev, garlic, red chili, cumin, coriander.<br><br><b>Price:</b> ₹190'
+},
+'Methi-Mutter-Malai': {
+  title: 'Methi Mutter Malai',
+  image: 'mm.jpg',
+  details: 'A mildly spiced dish with fresh fenugreek leaves and green peas cooked in a silky cream sauce – subtly sweet and aromatic.<br><br><b>Ingredients:</b> Fresh methi, green peas, cream, cashews, onion, spices.<br><br><b>Price:</b> ₹220'
+},
+'Malai-Kofta': {
+  title: 'Malai Kofta',
+  image: 'mk.jpg',
+  details: 'Delicate cottage cheese and potato dumplings served in a rich, creamy cashew-tomato gravy – a royal Mughlai treat.<br><br><b>Ingredients:</b> Paneer, potato, cashew, onion, tomato, cream, cardamom.<br><br><b>Price:</b> ₹240'
+},
   'basmati-pulao': {
     title: 'Basmati Pulao',
     image: 'pulao.jpg',
