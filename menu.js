@@ -9,6 +9,11 @@ const menuItems = {
   image: 'ss.jpg',
   details: 'A protein-packed healthy salad made from boiled green gram sprouts,<br>tossed with onion, tomato, cucumber, coriander, and lemon juice.<br><br><b>Ingredients:</b> Sprouts, onion, tomato, cucumber, green chili, lemon juice, coriander, salt, chaat masala.<br><br><b>Price:</b> ₹120'
 },
+'kachumber-salad': {
+  title: 'Kachumber Salad',
+  image: 'ks.jpg',
+  details: 'A refreshing chopped salad commonly served with Indian meals,<br>featuring finely diced cucumber, onion, and tomato with a squeeze of lemon.<br><br><b>Ingredients:</b> Cucumber, onion, tomato, green chili, coriander, lemon juice, black salt.<br><br><b>Price:</b> ₹120'
+},
   'divine-pasta': {
     title: 'Divine Pasta with Truffle',
     image: 'pasta.jpg',
