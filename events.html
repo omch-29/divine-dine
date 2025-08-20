@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Divine Dine - Events</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="events.css">
   <link rel="icon" href="logo.jpg" type="image/jpg">
 </head>
 <body>
@@ -24,5 +25,28 @@
       <li><a href="reviews.html">Reviews</a></li>
     </ul>
   </nav>
+    <section class="event-section">
+    <div class="event-intro">
+      <h1>Celebrate Your Special Moments with Us</h1>
+      <p>
+        Looking to host family events or a get-together with friends?
+        Planning a birthday, anniversary, or a milestone celebration?
+        <br>
+        <strong>We’re here to make it unforgettable.</strong>
+        Book our <span>special & customized rooms</span> tailored just for your occasion.
+      </p>
+    </div>
+
+    <form class="event-form" id="event-form">
+      <input id="ev-name" type="text" placeholder="Your Full Name" required />
+      <input id="ev-email" type="email" placeholder="Your Email" required />
+      <!--<input id="ev-datetime" type="datetime-local" required />-->
+      <input id="ev-phone" type="tel" placeholder="Your Phone Number" required />
+      <textarea id="ev-decor" placeholder="Decoration needs (e.g. balloons, flowers, lights)" rows="3"></textarea>
+      <textarea id="ev-custom" placeholder="Describe customization (theme, food style, seating, etc.)" rows="4"></textarea>
+      <button type="submit">Book My Event</button>
+    </form>
+  </section>
+  <script src="events.js"></script>
 </body>
 </html>

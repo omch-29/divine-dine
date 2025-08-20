@@ -1,0 +1,85 @@
+/* Page background and layout */
+.event-section {
+  background: url("restoint.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Intro text */
+.event-intro h1 {
+  font-size: 2.2rem;
+  color: gold;
+  margin-bottom: 12px;
+}
+
+.event-intro p {
+  max-width: 760px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 auto 24px;
+}
+
+.event-intro span {
+  color: gold;
+}
+
+/* Form card */
+.event-form {
+  background: rgba(0, 0, 0, 0.72);
+  padding: 24px;
+  border-radius: 14px;
+  width: 90%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.event-form input,
+.event-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #222;
+  color: #fff;
+}
+
+.event-form textarea::placeholder,
+.event-form input::placeholder {
+  color: #bbb;
+}
+
+.event-form button {
+  background: gold;
+  color: #000;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.08s ease, background 0.3s ease;
+}
+
+.event-form button:hover {
+  background: #fff;
+}
+
+.event-form button:active {
+  transform: scale(0.98);
+}
+
+/* Small responsiveness nudge */
+@media (max-width: 520px) {
+  .event-intro h1 { font-size: 1.8rem; }
+  .event-intro p { font-size: 0.95rem; }
+}
