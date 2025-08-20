@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Divine Dine- Dine in</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dinein.css">
   <link rel="icon" href="logo.jpg" type="image/jpg">
 </head>
 <body>
@@ -24,5 +25,23 @@
       <li><a href="reviews.html">Reviews</a></li>
     </ul>
   </nav>
+  <section class="dinein">
+    <div class="overlay"></div>
+    <div class="dinein-content">
+      <h1>Book Your Table Now</h1>
+      <p>Reserve your dining experience at <b>Divine Dine</b>. Fill in the details below to confirm your table.</p>
+      
+    
+      <form id="bookingForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="number" id="people" placeholder="Number of People" min="1" required>
+        <button type="submit">Book Table</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="dinein.js"></script>
 </body>
 </html>
