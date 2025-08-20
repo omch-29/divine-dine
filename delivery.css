@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.delivery {
+  max-width: 750px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.user-details input,
+.user-details textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+#menu-items {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.menu-item {
+  margin: 12px 0;
+  padding: 10px;
+  background: #222;
+  border-radius: 6px;
+}
+
+.menu-item label {
+  cursor: pointer;
+}
+
+button {
+  padding: 12px 22px;
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: white;
+}
