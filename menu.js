@@ -2,7 +2,7 @@ const menuItems = {
   'caesar-salad': {
     title: 'Caesar Salad',
     image: 'cs.jpg',
-    details: 'Crisp romaine lettuce tossed in creamy Caesar dressing,<br>topped with crunchy garlic croutons and freshly shaved Parmesan cheese.<br><br><b>Ingredients:</b> Romaine lettuce, Caesar dressing (olive oil, garlic, anchovy, egg yolk, lemon juice, Dijon mustard), Parmesan cheese, croutons, black pepper.<br><br><b>Price:</b> ₹220'
+    details: 'Crisp romaine lettuce tossed in creamy Caesar dressing,<br>topped with crunchy garlic croutons and freshly shaved Parmesan cheese.<br><br><b>Ingredients:</b> Romaine lettuce, Caesar dressing (olive oil, garlic, anchovy, egg yolk, lemon juice, Dijon mustard), Parmesan cheese, croutons, black pepper.<br><br><b>Price:</b> ₹180'
   },
   'sprout-salad': {
   title: 'Sprout Salad',
@@ -55,34 +55,79 @@ const menuItems = {
   image: 'bp.jpg',
   details: 'A fragrant and flavorful rice dish cooked with long-grain basmati rice, whole spices, and mild seasonings.<br><br><b>Description:</b> Each grain of rice remains separate and fluffy, infused with the aroma of cumin, cloves, bay leaf, and cardamom. Often served as an accompaniment to curries, dals, or enjoyed simply with raita.<br><br><b>Ingredients:</b> Basmati rice, cumin seeds, bay leaf, cardamom, cloves, cinnamon, onions, peas (optional), ghee/oil, salt.<br><br><b>Price:</b> ₹280'
 },
+'veg-fried-rice': {
+  title: 'Veg Fried Rice',
+  image: 'vfr.jpg',
+  details: 'A classic Indo-Chinese staple prepared with aromatic rice and stir-fried vegetables.<br><br><b>Description:</b> Mild yet flavorful, this dish is loved for its simplicity and pairs beautifully with Manchurian or chili dishes.<br><br><b>Ingredients:</b> Steamed rice, carrot, beans, capsicum, spring onion, soy sauce, black pepper, garlic.<br><br><b>Price:</b> ₹200'
+},
+'schezwan-fried-rice': {
+  title: 'Schezwan Fried Rice',
+  image: 'sfr.jpg',
+  details: 'Fiery, flavorful rice stir-fried with Schezwan sauce and crunchy vegetables.<br><br><b>Description:</b> Known for its spicy kick and bold red color, this dish is perfect for spice lovers who enjoy a Chinese-Indian fusion delight.<br><br><b>Ingredients:</b> Steamed rice, capsicum, carrot, beans, spring onion, garlic, ginger, Schezwan sauce, soy sauce.<br><br><b>Price:</b> ₹230'
+},
   'manchurian': {
-    title: ' Manchurian',
-    image: 'manch.jpg',
-    details: 'Spicy and tangy Manchurian balls made from finely minced vegetables, deep-fried to perfection and coated in a savory sauce. A popular Indo-Chinese fusion dish.'
-  },
-  'noodles': {
-    title: 'Hakka Noodles',
-    image: 'noodles.jpg',
-    details: 'Wok-tossed stir-fried noodles with a variety of fresh, crisp vegetables like cabbage, carrots, and bell peppers, flavored with a light sauce. A comforting and delicious snack.'
-  },
-  'pizza': {
-    title: 'Margherita Pizza',
-    image: 'pizza.jpg',
-    details: 'A simple yet classic pizza topped with San Marzano tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil. The essence of Italian simplicity.'
-  },
-  'tiramisu': {
-    title: 'Classic Tiramisu',
-    image: 'tiramisu.jpg',
-    details: 'A traditional Italian dessert with layers of coffee-soaked ladyfingers and a light, airy mascarpone cream. Dusted with rich cocoa powder for a bitter finish that complements the sweetness.'
-  },
+  title: 'Veg Manchurian',
+  image: 'manch.jpg',
+  details: 'A beloved Indo-Chinese delicacy made with crispy fried vegetable balls tossed in a flavorful soy-garlic sauce.<br><br><b>Description:</b> The dish combines the crunch of fried vegetable dumplings with a tangy, spicy, and slightly sweet gravy, making it a perfect companion to fried rice or noodles.<br><br><b>Ingredients:</b> Cabbage, carrot, capsicum, spring onion, ginger, garlic, green chili, cornflour, soy sauce, vinegar, chili sauce, black pepper.<br><br><b>Price:</b> ₹220'
+},
+
+  'hakka-noodles': {
+  title: 'Veg Hakka Noodles',
+  image: 'hn.jpg',
+  details: 'A popular Indo-Chinese dish loved for its bold flavors and wok-tossed goodness.<br><br><b>Description:</b> Stir-fried noodles tossed with fresh vegetables, soy sauce, and spices for the perfect street-style taste.<br><br><b>Ingredients:</b> Boiled noodles, carrot, cabbage, capsicum, spring onion, garlic, soy sauce, vinegar, chili sauce, black pepper.<br><br><b>Price:</b> ₹210'
+},
+
+'margherita-pizza': {
+  title: 'Margherita Pizza',
+  image: 'mp.jpg',
+  details: 'A timeless Italian classic with a touch of simplicity and elegance.<br><br><b>Description:</b> Soft pizza base topped with tangy tomato sauce, melted mozzarella, and fresh basil for an authentic taste of Italy.<br><br><b>Ingredients:</b> Pizza dough, tomato sauce, mozzarella cheese, olive oil, basil leaves, oregano.<br><br><b>Price:</b> ₹250'
+},
+'ff': {
+  title: 'Crispy French Fries',
+  image: 'fries.jpg',
+  details: 'Golden, crispy, and perfectly salted potato fries  the ultimate comfort snack.<br><br><b>Ingredients:</b> Potatoes, refined oil, salt, seasoning.<br><br><b>Price:</b> ₹140'
+},
+  'vanilla-icecream': {
+  title: 'Vanilla Ice Cream',
+  image: 'vc.jpg',
+  details: 'Classic creamy vanilla ice cream  simple, smooth, and loved by all ages.<br><br><b>Ingredients:</b> Milk, cream, sugar, vanilla extract.<br><br><b>Price:</b> ₹100 (2 scoops)'
+},
+'sf': {
+  title: 'Special Royal Falooda',
+  image: 'falooda.jpg',
+  details: 'A royal chilled dessert layered with rose syrup, sweet basil seeds, falooda sev, milk, ice cream & dry fruits.<br><br><b>Ingredients:</b> Rose syrup, falooda sev, sabja seeds, chilled milk, ice cream, dry fruits.<br><br><b>Price:</b> ₹180'
+},
+'gj': {
+  title: 'Gulab Jamun',
+  image: 'gj.jpg',
+  details: 'Soft, spongy khoya dumplings soaked in saffron-flavored sugar syrup – India’s most loved dessert.<br><br><b>Ingredients:</b> Khoya, maida, sugar, cardamom, saffron, ghee.<br><br><b>Price:</b> ₹120 (2 pcs)'
+},
   'iced-tea': {
-    title: 'Freshly Brewed Iced Tea',
-    image: 'iced-tea.jpg',
-    details: 'A refreshing and classic beverage made from freshly brewed tea leaves, served over ice with a slice of lemon. A perfect non-alcoholic choice to cleanse the palate.'
-  }
+  title: 'Freshly Brewed Iced Tea',
+  image: 'fbit.jpg',
+  details: 'A chilled, refreshing drink made from freshly brewed tea, served with a hint of lemon and mint – perfect to cool down your day.<br><br><b>Ingredients:</b> Fresh tea leaves, lemon juice, mint leaves, sugar (optional), ice cubes.<br><br><b>Price:</b> ₹90 (per glass)'
+},
+'ht': {
+  title: 'Hot Tea',
+  image: 'ht.jpg',
+  details: 'A comforting cup of freshly brewed Indian tea, infused with spices and served hot – the perfect companion for any meal.<br><br><b>Ingredients:</b> Tea leaves, milk, sugar, cardamom, ginger (optional).<br><br><b>Price:</b> ₹40 (per cup)'
+},
+
+'hc': {
+  title: 'Hot Coffee',
+  image: 'hc.jpg',
+  details: 'A rich and aromatic cup of hot coffee, brewed to perfection with milk and sugar – a timeless favorite.<br><br><b>Ingredients:</b> Coffee powder, milk, sugar.<br><br><b>Price:</b> ₹60 (per cup)'
+},
+
+'cc': {
+  title: 'Cold Coffee',
+  image: 'cc.jpg',
+  details: 'A chilled and creamy delight made with blended coffee, milk, and ice, topped with froth – refreshing and energizing.<br><br><b>Ingredients:</b> Coffee, milk, sugar, ice cubes, chocolate syrup (optional).<br><br><b>Price:</b> ₹120 (per glass)'
+}
+
 };
 
-// Function to open the modal
+
 function openModal(itemKey) {
   const item = menuItems[itemKey];
   if (item) {
