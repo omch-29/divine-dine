@@ -40,7 +40,7 @@
 .nav-links li a:hover{
     color: gold;
 }
-/* Hero Section */
+
 .hero {
   height: 90vh;
   background: url('restoint.jpg') no-repeat center center/cover; 

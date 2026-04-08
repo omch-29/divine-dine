@@ -20,5 +20,4 @@ document.getElementById("prev").addEventListener("click", () => {
   showReviews();
 });
 
-// Initial load
 showReviews();
